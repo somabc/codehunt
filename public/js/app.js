@@ -20348,7 +20348,7 @@ var App = function (_React$Component) {
   return App;
 }(_react2.default.Component);
 
-_reactDom2.default.render(_react2.default.createElement(App, null), document.getElementbyId('root'));
+_reactDom2.default.render(_react2.default.createElement(App, null), document.getElementById('root'));
 
 },{"react":176,"react-dom":25}],178:[function(require,module,exports){
 // shim for using process in browser
