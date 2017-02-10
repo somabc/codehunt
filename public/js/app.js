@@ -20336,20 +20336,20 @@ var HomePage = function (_React$Component) {
     _this.state = {
       productList: [{
         id: 1,
-        name: 'Codeacademy',
-        link: 'https://codeacademy.com',
-        media: '/img/codeacademy.jpeg',
+        name: 'Codecademy',
+        link: 'https://codecademy.com',
+        media: '/img/codecademy.jpeg',
         upvote: 169,
         description: 'Code for anyone',
         maker: {
           name: 'hu',
-          avatar: '/img/heiu.jpeg'
+          avatar: '/img/hieu.jpeg'
         }
       }, {
-        id: '2',
+        id: 2,
         name: 'Code4Startup',
         link: 'https://code4startup.com',
-        media: '/img/Code4Startup.jpeg',
+        media: '/img/code4startup.jpeg',
         upvote: 278,
         description: 'Code for startups',
         maker: {
@@ -20443,7 +20443,7 @@ var HomePage = function (_React$Component) {
                   _react2.default.createElement('br', null),
                   this.state.productList[1].upvote
                 ),
-                _react2.default.createElement('img', { className: 'product-item-media', src: this.state.productList[0].media }),
+                _react2.default.createElement('img', { className: 'product-item-media', src: this.state.productList[1].media }),
                 _react2.default.createElement(
                   'section',
                   { className: 'product-item-info' },
@@ -20453,13 +20453,13 @@ var HomePage = function (_React$Component) {
                     _react2.default.createElement(
                       'h2',
                       null,
-                      this.state.productList[0].name
+                      this.state.productList[1].name
                     )
                   ),
                   _react2.default.createElement(
                     'p',
                     null,
-                    this.state.productList[0].description
+                    this.state.productList[1].description
                   ),
                   _react2.default.createElement(
                     'a',

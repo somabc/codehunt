@@ -7,28 +7,28 @@ class HomePage extends React.Component {
       productList: [
         {
           id: 1,
-          name: 'Codeacademy',
-          link: 'https://codeacademy.com',
-          media: '/img/codeacademy.jpeg',
+          name: 'Codecademy',
+          link: 'https://codecademy.com',
+          media: '/img/codecademy.jpeg',
           upvote: 169,
           description: 'Code for anyone',
           maker: {
             name: 'hu',
-            avatar: '/img/heiu.jpeg',
+            avatar: '/img/hieu.jpeg'
           }
         },
         {
-          id: '2',
+          id: 2,
           name: 'Code4Startup',
           link: 'https://code4startup.com',
-          media: '/img/Code4Startup.jpeg',
+          media: '/img/code4startup.jpeg',
           upvote: 278,
           description: 'Code for startups',
-          maker:{
+          maker: {
             name: 'leo',
             avatar: '/img/leo.jpeg'
           }
-        }
+        },
       ]
     }
   }
@@ -77,12 +77,12 @@ class HomePage extends React.Component {
               <br/>
               {this.state.productList[1].upvote}
             </a>
-            <img className="product-item-media" src={this.state.productList[0].media} />
+            <img className="product-item-media" src={this.state.productList[1].media} />
             <section className="product-item-info">
               <a href="#">
-                <h2>{this.state.productList[0].name}</h2>
+                <h2>{this.state.productList[1].name}</h2>
               </a>
-              <p>{this.state.productList[0].description}</p>
+              <p>{this.state.productList[1].description}</p>
               <a href="#">
                 <img className="small-avatar" src={this.state.productList[0].maker.avatar}/>
               </a>
