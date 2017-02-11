@@ -535,3 +535,9 @@ template {
         background-color: white;
         text-align: center;
       }
+
+      .small-avatar: {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+      }
