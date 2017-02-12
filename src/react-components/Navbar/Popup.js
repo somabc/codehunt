@@ -5,7 +5,7 @@ class Popup extends React.Component {
     return(
       <section className="popup">
         <section className="popup-wrap">
-          <img src="/img/close.png"/>
+          <img src="/img/close.png"/ onClick={this.props.hidePopup}>
         </section>
         <section className="popup-content">
           <section>POPUP CONTENT</section>
@@ -15,7 +15,9 @@ class Popup extends React.Component {
 
     render() {
       <section>
-        {this.renderPopupContent()}
+      {
+        this.props.status? this renderPopupContent() : null
+      }
       </section>
     );
   }
