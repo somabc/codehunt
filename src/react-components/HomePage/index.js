@@ -16,7 +16,7 @@ class HomePage extends React.Component {
           maker: {
             name: 'hu',
             avatar: '/img/hieu.jpeg'
-          }
+          }My Profile
         },
         {
           id: 2,
